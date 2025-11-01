@@ -1,0 +1,69 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# build output
+/build
+/dist
+
+# production environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS system files
+.DS_Store
+
+# Linux and Windows system files
+Thumbs.db
+ehthumbs.db
+
+# cache
+/.cache
+/.parcel-cache
+/.next
+/.turbo
+/out
+
+# local environment
+.envrc
+*.local
+
+# temporary files
+*.tmp
+*.log
+*.bak
+
+# eslint, prettier caches
+.eslintcache
+.prettiercache
+
+# optional: ignore build artifacts from Storybook or docs
+storybook-static
+/styleguide
+
+# optional: ignore lockfiles (if you prefer not to commit)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
