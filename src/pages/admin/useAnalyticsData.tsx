@@ -325,7 +325,7 @@ const TopItemsChart = ({ dateRange }) => {
           <Tooltip
             contentStyle={{ backgroundColor: '#fff', border: '1px solid #e5e7eb', borderRadius: '8px' }}
           />
-          <Bar dataKey="totalSold" fill="#f59e0b" radius={[0, 8, 8, 0]} />
+          <Bar dataKey="totalRevenue" fill="#f59e0b" radius={[0, 8, 8, 0]} />
         </BarChart>
       </ResponsiveContainer>
     </div>
